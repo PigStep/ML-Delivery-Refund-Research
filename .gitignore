@@ -1,0 +1,40 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Jupyter Notebook временные файлы и кэш
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Jupyter Notebook конфиги и данные
+.jupyter/
+.jupyter_cache/
+
+# Временные файлы и папки
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы, созданные ядром Jupyter
+*.json
+*.log
+
+# Файлы данных
+*.csv
+
+# Визуализации
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# IDE-специфичные файлы
+.vscode/
+.idea/
+.DS_Store (Mac)
